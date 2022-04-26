@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2910802 */
+  src: url('../font/iconfont.woff2?t=1650865859345') format('woff2'),
+       url('../font/iconfont.woff?t=1650865859345') format('woff'),
+       url('../font/iconfont.ttf?t=1650865859345') format('truetype');
+}
+
+%iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+[class*="ll-icon"] {
+  @extend %iconfont;
+}
+
+.ll-icon-visible:before {
+  content: "\e711";
+}
+
+.ll-icon-close:before {
+  content: "\e6dc";
+}
+
+.ll-icon-search:before {
+  content: "\e6e1";
+}
+
+.ll-icon-rili:before {
+  content: "\e8b4";
+}
+
+.ll-icon-eye-close:before {
+  content: "\e66f";
+}
+
+.ll-icon-gou:before {
+  content: "\e630";
+}
+
+.ll-icon-caidan_wujiaoxingkong:before {
+  content: "\e6b4";
+}
+
+.ll-icon-pencil:before {
+  content: "\e769";
+}
+
+.ll-icon-huishouzhan_huaban:before {
+  content: "\e615";
+}
+
+.ll-icon-short_message:before {
+  content: "\e628";
+}
+
