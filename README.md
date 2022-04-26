@@ -8,6 +8,6 @@
 
 ## 全局注册组件 Vue.use();
 
-## 大功告成，本组件库目前只有<ll-button></ll-button> 和<ll-input></ll-input>,用法和element-ui大致相同
+## 大功告成，本组件库目前只有ll-button 和 ll-input,用法和element-ui大致相同
 
 ## 更详细的细节在package中,为 .vue文件源码
